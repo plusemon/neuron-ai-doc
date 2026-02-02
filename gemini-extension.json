@@ -1,0 +1,18 @@
+{
+  "name": "Neuron AI MCP Extension",
+  "version": "1.0.0",
+  "description": "An MCP extension for Gemini CLI built with Neuron AI framework.",
+  "mcpServers": {
+    "neuron-ai-local": {
+      "type": "stdio",
+      "command": "php",
+      "args": [
+        "${extensionPath}/server.php"
+      ]
+    },
+    "neuron-ai-doc": {
+      "type": "http",
+      "url": "https://docs.neuron-ai.dev/~gitbook/mcp"
+    }
+  }
+}

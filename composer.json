@@ -1,0 +1,14 @@
+{
+    "name": "neuron-ai-doc/mcp-extension",
+    "description": "A Gemini CLI extension using Neuron AI",
+    "type": "project",
+    "require": {
+        "neuron-core/neuron-ai": "*",
+        "php-mcp/server": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NeuronApp\\": "src/"
+        }
+    }
+}
