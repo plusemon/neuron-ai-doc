@@ -1,5 +1,5 @@
 {
-  "name": "Neuron AI MCP Extension",
+  "name": "neuron-ai-mcp-extension",
   "version": "1.0.0",
   "description": "An MCP extension for Gemini CLI built with Neuron AI framework.",
   "author": "Plusemon",
