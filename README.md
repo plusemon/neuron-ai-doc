@@ -10,22 +10,34 @@ This is a Gemini CLI extension that leverages the [Neuron AI Framework](https://
 
 ## Installation
 
+### Quick Start
+Install directly via Gemini CLI:
+```bash
+gemini extensions install https://github.com/plusemon/neuron-ai-doc
+```
+
+### Manual Installation (Development)
 1. Clone this repository.
 2. Install PHP dependencies:
    ```bash
    composer install
    ```
-3. Link the extension to Gemini CLI:
+3. Link the extension:
    ```bash
    gemini extensions link .
    ```
 
 ## Usage
 
-Once linked, you can use the tools provided by this extension in your Gemini CLI sessions. For example:
+### Available Tools
+- **`ask_neuron`**: Directly query a Neuron AI agent.
+  - *Example*: `ask_neuron(question: "How do I define a tool in Neuron?")`
+- **`neuron-ai-doc` (Remote MCP)**: Access live documentation from Neuron AI.
 
-- Use the `ask_neuron` tool to interact with a Neuron-powered agent.
-- Ask Gemini CLI to search the Neuron AI documentation.
+### Example Prompts
+- "Using the Neuron extension, explain how to set up a multi-agent workflow."
+- "Search the Neuron documentation for RAG implementation examples."
+
 
 ## Configuration
 
